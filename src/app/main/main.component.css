@@ -1,0 +1,22 @@
+.main_form{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    justify-content: center;
+
+}
+.wrap_action{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+button{
+    margin-left: 20px;
+}
+.result{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 117, 0);
+    font-weight: 600;
+}
