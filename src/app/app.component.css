@@ -1,0 +1,15 @@
+.wrap{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    
+}
+sidebar{
+    flex:0.3;
+}
+app-main{
+    flex:0.7;
+    display: flex;
+    flex-wrap: wrap;
+}
+

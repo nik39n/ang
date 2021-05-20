@@ -1,0 +1,40 @@
+<p>ex1 works!</p>
+<br>
+<p>{{nLesson}}</p>
+<br>
+<p>{{arr}}</p>
+<br>
+<p>obj: {{myObj.name}}   w: {{myObj.params.w}}  h: {{myObj.params.h}}</p>
+<br>
+<img src="{{img1}}" width="50">
+<br>
+<p>{{33 + 55}} ___ {{'Hello ' + ' Angular'}}</p>
+<br>
+<img [src]="img1" width="50">
+<br>
+<button (click)=ClickBtn()>Кликни....</button>
+<br>
+<input type="text" (keyup)=onInput1($event)/>
+<br>
+<input type="text" (keyup)=onInput2(myInput2.value)  #myInput2   [value]="str"/>
+<br>
+<input type="text" (blur)=onBlur(myInput3.value)  #myInput3   [value]="str"/>
+<br>
+<input type="text" [(ngModel)]="str"/>
+<br>
+<p>{{str}}</p>
+<br>
+<div [ngStyle]="{
+  width: '50px',
+  height: '50px',
+  borderRadius: '5px',
+  border: '1px solid #ccc',
+  background: flag1 ? 'green' : 'red'
+}">
+
+</div>
+<br>
+<p [ngClass]='{red: flag1, blue: !flag1}'>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid magnam quae ad necessitatibus. Corrupti reiciendis consequatur adipisci aliquam error eligendi distinctio, laboriosam eveniet! Velit, ut odit? Fuga autem minus cumque?
+</p>
+

@@ -1,0 +1,15 @@
+<div class="wrapi">
+  <h1>Добавить студента</h1>
+  <input type="text" name="title" id="" placeholder="title" (keyup)=onInput2($event)>
+  <input type="text" name="description" id="" placeholder="description" (keyup)=onInput3($event)>
+  <input type="text" name="year" id="" placeholder="year" (keyup)=onInput4($event)>
+  <input type="text" name="img" id="" placeholder="img" (keyup)=onInput5($event)>
+  <input type="text" name="id" id="" placeholder="id" (keyup)=onInput6($event)>
+  <button  (click)=ClickBtn() value="Добавить">Добавить</button>
+</div>
+<app-item
+  *ngFor = "let item of item" 
+  [Item]="item"
+  (onRemove)="removeItem($event)"
+  ></app-item>
+

@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    display: block;
+}
+.wrapi{
+    margin-bottom: 100px;
+}
